@@ -1123,6 +1123,7 @@
                 </property>
             </activation>
             <build>
+                <defaultGoal>spring-boot:run</defaultGoal>
                 <pluginManagement>
                     <plugins>
                         <!--
