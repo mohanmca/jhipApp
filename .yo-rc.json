@@ -1,0 +1,38 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.nikias.jhip"
+    },
+    "jhipsterVersion": "5.7.2",
+    "applicationType": "monolith",
+    "baseName": "jhipApp",
+    "packageName": "com.nikias.jhip",
+    "packageFolder": "com/nikias/jhip",
+    "serverPort": "8080",
+    "authenticationType": "jwt",
+    "cacheProvider": "ehcache",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "mysql",
+    "searchEngine": "elasticsearch",
+    "messageBroker": "kafka",
+    "serviceDiscoveryType": "eureka",
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "YTJjM2ZjN2Y4OWQ1YjJiNTEzNjU3NDZhOWJiYTU1MzJlMDkwYWM1MWM5MTc1NzUzZDY1NmU1NThhZGIwY2FkNmE0ZWM4OWZmMjU0NzM5OWNlY2MyOGYwZjFmZjFmMzllZTA2ZWQyYTY3MjJkOWU4NDcxMjM0ZmM0ZmJkZmE1MDY=",
+    "clientFramework": "react",
+    "useSass": true,
+    "clientPackageManager": "npm",
+    "testFrameworks": [],
+    "jhiPrefix": "jhi",
+    "otherModules": [
+      {
+        "name": "generator-jhipster-nav-element",
+        "version": "2.1.2"
+      }
+    ],
+    "enableTranslation": false
+  }
+}
