@@ -17,7 +17,6 @@
     "devDatabaseType": "h2Disk",
     "prodDatabaseType": "mysql",
     "searchEngine": "elasticsearch",
-    "messageBroker": "kafka",
     "serviceDiscoveryType": "eureka",
     "buildTool": "maven",
     "enableSwaggerCodegen": false,
@@ -33,6 +32,7 @@
         "version": "2.1.2"
       }
     ],
-    "enableTranslation": false
+    "enableTranslation": false,
+    "messageBroker": false
   }
 }

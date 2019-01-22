@@ -10,8 +10,6 @@ services:
             - SPRING_DATASOURCE_URL=jdbc:mysql://jhipapp-mysql:3306/jhipapp?useUnicode=true&characterEncoding=utf8&useSSL=false
             - JHIPSTER_SLEEP=30 # gives time for the JHipster Registry to boot before the application
             - SPRING_DATA_JEST_URI=http://jhipapp-elasticsearch:9200
-            - SPRING_CLOUD_STREAM_KAFKA_BINDER_BROKERS=kafka
-            - SPRING_CLOUD_STREAM_KAFKA_BINDER_ZK_NODES=zookeeper
         ports:
             - 8080:8080
     jhipapp-mysql:
@@ -22,16 +20,6 @@ services:
         extends:
             file: elasticsearch.yml
             service: jhipapp-elasticsearch
-    kafka:
-        extends:
-            file: kafka.yml
-            service: kafka
-        environment:
-            - KAFKA_ADVERTISED_HOST_NAME=kafka
-    zookeeper:
-        extends:
-            file: kafka.yml
-            service: zookeeper
     jhipster-registry:
         extends:
             file: jhipster-registry.yml
